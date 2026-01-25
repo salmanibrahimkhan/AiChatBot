@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.ai.FirstAiProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-23T18:08:11.334Z" hostname="salman.khan" time="0.47">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.demo.ai.FirstAiProjectApplicationTests" time="0.47"/>
+  <system-out><![CDATA[23:38:10.483 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.ai.FirstAiProjectApplicationTests]: FirstAiProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:38:10.536 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.ai.FirstAiProjectApplication for test class com.example.demo.ai.FirstAiProjectApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.10)
+
+2026-01-23T23:38:10.714+05:30  INFO 47862 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Starting FirstAiProjectApplicationTests using Java 17.0.8.1 with PID 47862 (started by salmankhan in /Users/salmankhan/Documents/AI Learning/demo)
+2026-01-23T23:38:10.715+05:30  INFO 47862 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-01-23T23:38:11.327+05:30  INFO 47862 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Started FirstAiProjectApplicationTests in 0.702 seconds (process running for 1.454)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
