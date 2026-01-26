@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.demo.ai.FirstAiProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-23T18:08:11.334Z" hostname="salman.khan" time="0.47">
+<testsuite name="com.example.demo.ai.FirstAiProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-25T18:04:02.581Z" hostname="Salman-Ibrahim-Khan.local" time="0.788">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.demo.ai.FirstAiProjectApplicationTests" time="0.47"/>
-  <system-out><![CDATA[23:38:10.483 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.ai.FirstAiProjectApplicationTests]: FirstAiProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-23:38:10.536 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.ai.FirstAiProjectApplication for test class com.example.demo.ai.FirstAiProjectApplicationTests
+  <testcase name="contextLoads()" classname="com.example.demo.ai.FirstAiProjectApplicationTests" time="0.788"/>
+  <system-out><![CDATA[23:34:00.004 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.ai.FirstAiProjectApplicationTests]: FirstAiProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:34:00.159 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.ai.FirstAiProjectApplication for test class com.example.demo.ai.FirstAiProjectApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
 
  :: Spring Boot ::               (v3.5.10)
 
-2026-01-23T23:38:10.714+05:30  INFO 47862 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Starting FirstAiProjectApplicationTests using Java 17.0.8.1 with PID 47862 (started by salmankhan in /Users/salmankhan/Documents/AI Learning/demo)
-2026-01-23T23:38:10.715+05:30  INFO 47862 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2026-01-23T23:38:11.327+05:30  INFO 47862 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Started FirstAiProjectApplicationTests in 0.702 seconds (process running for 1.454)
+2026-01-25T23:34:00.747+05:30  INFO 80167 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Starting FirstAiProjectApplicationTests using Java 17.0.16 with PID 80167 (started by test in /Users/test/Downloads/AI Learning/AiChatBot)
+2026-01-25T23:34:00.749+05:30  INFO 80167 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-01-25T23:34:02.567+05:30  INFO 80167 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Started FirstAiProjectApplicationTests in 2.161 seconds (process running for 3.804)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

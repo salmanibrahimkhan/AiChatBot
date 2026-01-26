@@ -1,23 +1,20 @@
-# Getting Started
+https://chatgpt.com/share/69765fde-1e50-8010-879d-25db11ff2f65
 
-### Reference Documentation
-For further reference, please consider the following sections:
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/3.5.10/gradle-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.5.10/gradle-plugin/packaging-oci-image.html)
-* [Spring Web](https://docs.spring.io/spring-boot/3.5.10/reference/web/servlet.html)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/3.5.10/reference/using/devtools.html)
+Question : I am uses free api key of gemini and i have a question if i have 100 set of question and answer, do we need to upload all question answer all the time with prompt?
 
-### Guides
-The following guides illustrate how to use some features concretely:
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-
-### Additional Links
-These additional references should also help you:
-
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
-
+1️⃣ RAG-Lite Architecture (Simple & Correct)
+User Question
+↓
+Normalize text
+↓
+In-memory cosine similarity (FAQ matcher)
+↓
+Top 1–3 FAQs
+↓
+Optimized prompt
+↓
+Gemini API
+↓
+Answer

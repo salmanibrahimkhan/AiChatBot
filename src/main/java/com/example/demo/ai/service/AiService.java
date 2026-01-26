@@ -17,7 +17,7 @@ public class AiService {
     private final WebClient webClient;
 
 //    @Value("${app.ai.gemini.api-key:}")
-    public String geminiApiKey = "AIzaSyDZlTonAtqPnM1a7vUxoWMjNSLLse-m8Mw";
+    public String geminiApiKey = "AIzaSyAtSHF3H0CW656ewwlDLxk5flmN-Ivmpks";
 
 
     public AiService() {
