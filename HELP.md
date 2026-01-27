@@ -1,3 +1,10 @@
+Setup Project Steps
+
+ -- > if running directly from github
+gh codespace ports
+gh codespace ports visibility 8080:public
+
+
 https://chatgpt.com/share/69765fde-1e50-8010-879d-25db11ff2f65
 
 
