@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.demo.ai.FirstAiProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-25T18:04:02.581Z" hostname="Salman-Ibrahim-Khan.local" time="0.788">
+<testsuite name="com.example.demo.ai.FirstAiProjectApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-30T15:31:49.699Z" hostname="Salman-Ibrahim-Khan.local" time="0.599">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.demo.ai.FirstAiProjectApplicationTests" time="0.788"/>
-  <system-out><![CDATA[23:34:00.004 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.ai.FirstAiProjectApplicationTests]: FirstAiProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-23:34:00.159 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.ai.FirstAiProjectApplication for test class com.example.demo.ai.FirstAiProjectApplicationTests
+  <testcase name="contextLoads()" classname="com.example.demo.ai.FirstAiProjectApplicationTests" time="0.599"/>
+  <system-out><![CDATA[21:01:44.694 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.ai.FirstAiProjectApplicationTests]: FirstAiProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:01:44.861 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.ai.FirstAiProjectApplication for test class com.example.demo.ai.FirstAiProjectApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,30 @@
 
  :: Spring Boot ::               (v3.5.10)
 
-2026-01-25T23:34:00.747+05:30  INFO 80167 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Starting FirstAiProjectApplicationTests using Java 17.0.16 with PID 80167 (started by test in /Users/test/Downloads/AI Learning/AiChatBot)
-2026-01-25T23:34:00.749+05:30  INFO 80167 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2026-01-25T23:34:02.567+05:30  INFO 80167 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Started FirstAiProjectApplicationTests in 2.161 seconds (process running for 3.804)
+2026-01-30T21:01:45.432+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Starting FirstAiProjectApplicationTests using Java 17.0.16 with PID 22559 (started by test in /Users/test/Downloads/AI Learning/AiChatBot)
+2026-01-30T21:01:45.434+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-01-30T21:01:46.308+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-30T21:01:46.339+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2026-01-30T21:01:46.975+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-30T21:01:47.030+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-01-30T21:01:47.067+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-30T21:01:47.410+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-30T21:01:47.443+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-30T21:01:47.582+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42dd7d82
+2026-01-30T21:01:47.585+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-30T21:01:47.621+05:30  WARN 22559 --- [FirstAiProject] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-30T21:01:47.646+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-30T21:01:48.610+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-30T21:01:48.670+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-30T21:01:49.251+05:30  WARN 22559 --- [FirstAiProject] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-30T21:01:49.681+05:30  INFO 22559 --- [FirstAiProject] [    Test worker] c.e.d.ai.FirstAiProjectApplicationTests  : Started FirstAiProjectApplicationTests in 4.624 seconds (process running for 6.158)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
